@@ -1,0 +1,222 @@
+a{
+    cursor: pointer;
+}
+
+
+/* nav bar */
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar{
+    background-color: #000333!important;
+    color: white!important;
+}
+.navbar .nav-item a{
+    color: white!important;
+
+}
+.outer-contact-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #efff75;
+}
+
+.cont-style{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.cont-style i{
+color: black;}
+/* HOME */
+
+.home {
+    height: 100vh;
+    /* background: linear-gradient(to right, #01097a, #efff75, #01097a); اللون الكحلي على الجانبين والليوموني في المنتصف */
+    background: radial-gradient(circle, #efff75, #000333);
+}
+
+.fs {
+    font-size: 4.5rem;
+}
+
+.outline-white {
+    border: 0.3px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+
+.mt-10 {
+    margin: 170px;
+}
+
+
+
+/* ABOUT */
+.about {
+    height: 100vh;
+    background-color: #000330;
+
+}
+
+.fs-small {
+    font-size: 1.5rem;
+}
+
+.col {
+    color: #efff75;
+}
+
+.btn-outline-Lemon {
+
+    background-color: #efff75;
+    border-radius: 20px;
+}
+
+
+.btn-outline-Lemon:hover {
+
+    background-color: #efff75;
+    color: #000;
+}
+
+/* skills */
+
+.skills {
+    background-color: #000330;
+
+}
+
+.col-in-skill {
+    /* padding: 25px; */
+    height: 280px;
+    background-color: rgb(27, 32, 69);
+    border-radius: 5px;
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, 0.2);
+
+}
+
+.bord{
+    border-radius: 5px;
+
+}
+
+.col-in-skill img {
+    width: 70%;
+    height: 50%;
+}
+
+.fs-mid {
+    font-size: 2.5rem;
+}
+
+.bg-dark-blue {
+    background-color: rgb(27, 32, 69);
+    height: 100%;
+}
+
+
+
+/* projects */
+
+
+.h-80{
+    height: 80%;
+}
+
+
+.bg-blue{
+    background-color: rgb(27, 32, 69);
+color: #efff75;
+}
+
+
+
+
+
+
+.video-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease; /* السلاسة */
+}
+
+.video-container:hover .hover-video {
+    opacity: 1; /* إظهار الفيديو عند تمرير الماوس */
+}
+
+.video-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.video-container:hover img {
+    opacity: 0; /* إخفاء الصورة عند تمرير الماوس */
+}
+
+
+.txt-lemon{
+    color: #efff75;
+}
+
+
+/* CONTACT */
+.contact{
+    background-color: #000330;
+}
+
+.bg-blue2{
+    background-color: rgb(27, 32, 69);
+color: white;
+}
+
+
+@media (max-width: 1200px) {
+
+    .col-in-skill {
+        height: 220px;
+
+    }
+}
+
+@media (max-width: 765px) {
+    .navbar-collapse {
+        display: block;
+        /* ترتيب العناصر عمودياً */
+    }
+
+    .col-in-skill {
+        height: auto;
+
+    }
+
+    .mt-10 {
+        margin: 70px;
+    }
+
+    .cont-style{
+        border: none;
+    }
+
+    .del-pad{
+        padding: 0px;
+    }
+}
+
+
